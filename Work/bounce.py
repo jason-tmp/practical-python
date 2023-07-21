@@ -17,5 +17,5 @@ bounces = [
 
 index = 1
 for i in bounces:
-    print(index, i)
+    print(index, round(i, 4))
     index += 1
