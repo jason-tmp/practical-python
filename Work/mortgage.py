@@ -17,5 +17,5 @@ while principal > 0:
         total_paid = total_paid + payment
     month += 1
 
-print('Total paid', total_paid)
-print('Total months', month)
+print(f'Total paid: ${total_paid:,.2f}')
+print(f'Total months: {month}')
